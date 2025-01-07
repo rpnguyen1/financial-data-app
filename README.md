@@ -32,7 +32,3 @@ In the project directory, you can run:
 ## Deployment
 
 If you wish to deploy the app, you can use services like GitHub Pages, Netlify, or Vercel. For more information on deployment, refer to [Create React App documentation on deployment](https://facebook.github.io/create-react-app/docs/deployment).
-
-## License
-
-[MIT License](LICENSE)
