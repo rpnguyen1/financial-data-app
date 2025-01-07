@@ -3,7 +3,7 @@
 A React app that fetches annual income statements for AAPL (Apple) and allows users to filter and analyze key metrics such as revenue, net income, gross profit, and expenses.
 
 ## Link to Deployed App
-[https://asdf.github.io/financial-data-app/](https://rpnguyen1.github.io/financial-data-app/)
+[https://rpnguyen1.github.io/financial-data-app/](https://rpnguyen1.github.io/financial-data-app/)
 
 ## Installation
 
