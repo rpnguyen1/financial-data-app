@@ -1,82 +1,38 @@
-Link to deployed app: https://rpnguyen1.github.io/financial-data-app/
+# Financial Data Filtering App
 
-Follow the instructions below for react app to run the project locally.
+A React app that fetches annual income statements for AAPL (Apple) and allows users to filter and analyze key metrics such as revenue, net income, gross profit, and expenses.
 
-For a quick start:
-1. Make sure you have all the necessary dependencies such as node.js installed
-2. Add an .env file in the directory of this README and add the line:
- REACT_APP_API_KEY=<your-api-key>
-3. Run the command: npm start
+## Link to Deployed App
+[https://asdf.github.io/financial-data-app/](https://rpnguyen1.github.io/financial-data-app/)
 
-Basic react app info below:
+## Installation
 
-# Getting Started with Create React App
+To run the project locally, follow the steps below:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+2. Clone the repository:
+`git clone https://github.com/your-username/financial-data-app.git`
+3. Navigate to the project directory:
+`cd financial-data-app`
+4. Create a `.env` file in the root directory of the project.
+5. Add the following line to the `.env` file:
+`REACT_APP_API_KEY=<your_api_key_here>`
+6. Install dependencies:
+`npm install`
+7. Start the app in development mode:
+   The app will be available at [http://localhost:3000](http://localhost:3000).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start`: Runs the app in development mode.
+- `npm run build`: Builds the app for production to the build folder.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deployment
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+If you wish to deploy the app, you can use services like GitHub Pages, Netlify, or Vercel. For more information on deployment, refer to [Create React App documentation on deployment](https://facebook.github.io/create-react-app/docs/deployment).
 
-### `npm test`
+## License
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT License](LICENSE)
