@@ -1,4 +1,4 @@
-Link to deployed app: 
+Link to deployed app: https://rpnguyen1.github.io/financial-data-app/
 
 Follow the instructions below for react app to run the project locally.
 
